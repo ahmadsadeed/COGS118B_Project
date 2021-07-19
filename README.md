@@ -1,4 +1,8 @@
 # COGS118B_Project
 COGS 118B - Machine Learning II Project
 
+
+The main focus/motivation of this project is to identify the efficacy and differences of the two clustering algorithms of interest: K-Means Clustering and Mixtures of Gaussian. The data set that we decided to use is a set of seeds/grains with various lengths, widths, perimeters, areas, compactness and so on totaling to 7 feature variables. These various factors will determine which type of seed/grain it is. The data set description let us know there are three main wheat varieties; Kama, Rosa, and Canadian. As a result, we would want to implement a K-means and Mixture of Gaussian algorithm that will accurately cluster the different seed types accordingly using three clusters. A smaller focus for this project was to see the way we can apply what we have learned throughout this course about clustering to this data and extend ideas to supervised learning by checking accuracy of the predicted cluster labels with the given labels. When it comes to picking a machine learning algorithm, the goal is to pick the one that produces the best accuracy and results by varying its parameters. By creating both different algorithms, this will further advance the groups overall knowledge on K-means clustering as well the prior distributions and groups knowledge with Mixture of Gaussians too. 
+We know that K-means clustering identifies the number of centroids, which is defined as the number of K’s, and then every data point is categorized to be in one of those clusters.  With the Mixture of Gaussian clustering algorithm, it is different from K-means clustering because the algorithm we implemented relies on the posterior distributions. 
+
 UCI Dataset: https://archive.ics.uci.edu/ml/datasets/seeds#
